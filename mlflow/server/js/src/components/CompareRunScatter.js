@@ -116,7 +116,7 @@ class CompareRunScatter extends Component {
                   text: tooltips,
                   hoverinfo: "text",
                   type: 'scatter',
-                  mode: 'markers',
+                  mode: 'lines+markers',
                   marker: {
                     size: 10,
                     color: "rgba(200, 50, 100, .75)",

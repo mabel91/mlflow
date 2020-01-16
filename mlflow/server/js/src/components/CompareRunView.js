@@ -118,7 +118,7 @@ class CompareRunView extends Component {
           </table>
         </div>
         <Tabs>
-          <TabPane tab="Scatter Plot" key="1">
+          <TabPane tab="Line Chart" key="1">
             <CompareRunScatter
               runUuids={this.props.runUuids}
               runDisplayNames={this.props.runDisplayNames}
